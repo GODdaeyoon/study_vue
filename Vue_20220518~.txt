@@ -1,0 +1,34 @@
+Vue란?
+    1.인터페이스 개발을 위한 프레임워크
+
+    2.Vue.js는 SPA(single Page Application) 프론트엔드 프레임워크
+        SPA는 단일 페이지 어플리케이션 즉, 페이지하나에서 동작하는 어플리케이션
+        SPA 장점:처음 접속했을 때 로딩된 페이지중 변경이 필요한 부분만 바뀜 
+        그러므로 속도가 빠르고 다시 서버로부터 받아올 필요가없어서 효율적임.
+        SPA 단점:처음 접속했을 시 필요하지 않는 웹 자원까지 받아오므로 느릴수있음
+        
+    3.Vue의 장점
+        직관적이며 배우기 쉽다.
+        재사용을 통한 애플리케이션 개발 기간 단축 및 양질의 코드를 생산.
+        Angular의 장점과 React의 장점을 모두 가지고있다.
+    
+    4.prefetch에 대해서
+        prefetch란 캐시를 저장해 랜더링 시간을 줄이기 위한것 하지만 잘못 사용하면 오히려 랜더링 시간이 늘어날 수 있음.
+        왜 why? prefetch기능이 적용된 경우 첫 사이트에 들어갈 경우 모든 데이터가 캐시에 저장됌 하지만 필요없는 데이터도 저장 되기 때문에
+        랜더링 시간이 늘어날 수 있음. 
+        예를들어 내가 볼 화면은 겨우 5개의 데이터지만 10개의 데이터를 캐시에 넣으려고 하기때문에 그만큼 랜더링이 느려질 수 밖에 없음.
+        그러므로 정말 필요한 컴포넌트에 대해서만 prefetch 기능을 적용하는것이 좋음.
+    
+        prefetch는 Vue Cli에서 기능이 기본적으로 true로 되어있음.
+        이 기능을 끄기 위해선 Vue.config.js 파일을 생성 후
+        prefetch 끄는 코드 (/vue-project/vue.config.js)
+            module.exports = {
+                chainWebpack: config => {
+                    config.plugins.delete('prefetch'); // prefech 삭제
+                }
+            }
+        를 작성
+        - prefetch 적용 코드 (/vue-project/src/router/index.js) : component 를 import 로 넣을 때 앞에 /* webpackChunkName: "about" */ 주석을 추가로 넣어주면 됨
+        component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue');
+
+        Vue 애플리케이션 개발 시 기본적으로 prefetch 기능을 끄는것을 권장함.

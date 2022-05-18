@@ -1,0 +1,25 @@
+1.Node.js 설치
+https://nodejs.org/ - node 설치 / node 설치하면서 npm 은 자동으로 설치됨
+VS Code 터미널에 node -v 입력해서 node 설치 확인 가능
+VS Code 터미널에 npm-v 입력해서 npm 설치 확인 가능
+(Node.js를 설치하면 npm이 자동으로 설치됌)
+
+2.vs code Extension 설치
+- vetur - vue 프로그램 문법 가이드 제공
+- debugger for chrome -  VS Code 내에서 디버깅
+- prettier-code formatter - 코드 포맷 변환
+
+3.Vue Cli 설치
+VS Code 터미널에 npm install -g @vue/cli 입력해서 설치
+vue -V 나 vue —version 입력해서 설치 확인 가능
+
+4.Vue 프로젝트 설치
+1. VS Code 터미널에 vue create [프로젝트명]입력 후 ‘Default (Vue 3 Preview) ~’ 클릭
+2. cd [프로젝트명] 입력하면 폴더 안으로 들어감
+3. npm run serve 입력하면 서버 실행됨, 쓰여있는 링크 열어서 페이지 확인 가능
+로컬 기본 서버는 [http://localhost:8080/](http://localhost:8080/) 로 실행
+
+5.Vue Router 설치
+1. VS Code 터미널에 cd [프로젝트명] 입력해서 폴더 들어간 후
+2. vue add router 입력 후 y 입력, Y 입력
+3. npm run serve 입력해서 서버 실행
