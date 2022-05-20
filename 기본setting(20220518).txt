@@ -23,3 +23,6 @@ vue -V 나 vue —version 입력해서 설치 확인 가능
 1. VS Code 터미널에 cd [프로젝트명] 입력해서 폴더 들어간 후
 2. vue add router 입력 후 y 입력, Y 입력
 3. npm run serve 입력해서 서버 실행
+
+cd vue-project
+npm run serve
