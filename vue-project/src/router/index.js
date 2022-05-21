@@ -13,7 +13,12 @@ import DataBingingClass from '../views/DataBingingClass.vue'
 import DataBingingClass2 from '../views/DataBingingClass2.vue'
 import DataBingingStyle from '../views/DataBingingStyle.vue'
 import DataBingingList from '../views/DataBingingList.vue'
-
+import RenderingVif from '../views/RenderingVif.vue'
+import EventClick from '../views/EventClick.vue'
+import EventChange from '../views/EventChange.vue'
+import Computed from '../views/Computed.vue'
+import Watch from '../views/Watch.vue'
+import Watch2 from '../views/Watch2.vue'
 
 const routes = [
   
@@ -94,6 +99,36 @@ const routes = [
     path: '/DataBingingList',
     name: 'DataBingingList',
     component: DataBingingList 
+  },
+  {
+    path: '/RenderingVif',
+    name: 'RenderingVif',
+    component: RenderingVif 
+  },
+  {
+    path: '/EventClick',
+    name: 'EventClick',
+    component: EventClick 
+  },
+  {
+    path: '/EventChange',
+    name: 'EventChange',
+    component: EventChange 
+  },
+  {
+    path: '/Computed',
+    name: 'Computed',
+    component: Computed 
+  },
+  {
+    path: '/Watch',
+    name: 'Watch',
+    component: Watch 
+  },
+  {
+    path: '/Watch2',
+    name: 'Watch2',
+    component: Watch2 
   },
 ]
 

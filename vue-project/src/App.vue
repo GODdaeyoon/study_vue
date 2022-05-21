@@ -13,7 +13,13 @@
     <router-link to="/DataBingingClass">DataBingingClass</router-link> |
     <router-link to="/DataBingingClass2">DataBingingClass2</router-link> |
     <router-link to="/DataBingingStyle">DataBingingStyle</router-link> |
-    <router-link to="/DataBingingList">DataBingingList</router-link>
+    <router-link to="/DataBingingList">DataBingingList</router-link> |
+    <router-link to="/RenderingVif">RenderingVif</router-link> |
+    <router-link to="/EventClick">EventClick</router-link> |
+    <router-link to="/EventChange">EventChange</router-link> |
+    <router-link to="/Computed">Computed</router-link> |
+    <router-link to="/Watch">Watch</router-link> |
+    <router-link to="/Watch2">Watch2</router-link>
   </nav>
   <router-view/>
 </template>
