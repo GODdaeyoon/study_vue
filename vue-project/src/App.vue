@@ -19,7 +19,8 @@
     <router-link to="/EventChange">EventChange</router-link> |
     <router-link to="/Computed">Computed</router-link> |
     <router-link to="/Watch">Watch</router-link> |
-    <router-link to="/Watch2">Watch2</router-link>
+    <router-link to="/Watch2">Watch2</router-link> |
+    <router-link to="/DataBingingList02">DataBingingList02</router-link>
   </nav>
   <router-view/>
 </template>

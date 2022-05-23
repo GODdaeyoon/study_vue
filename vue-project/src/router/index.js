@@ -19,6 +19,7 @@ import EventChange from '../views/EventChange.vue'
 import Computed from '../views/Computed.vue'
 import Watch from '../views/Watch.vue'
 import Watch2 from '../views/Watch2.vue'
+import DataBingingList02 from '../views/DataBingingList02.vue'
 
 const routes = [
   
@@ -129,6 +130,11 @@ const routes = [
     path: '/Watch2',
     name: 'Watch2',
     component: Watch2 
+  },
+  {
+    path: '/DataBingingList02',
+    name: 'DataBingingList02',
+    component: DataBingingList02 
   },
 ]
 

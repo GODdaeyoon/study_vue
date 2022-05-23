@@ -26,3 +26,4 @@ vue -V 나 vue —version 입력해서 설치 확인 가능
 
 cd vue-project
 npm run serve
+https://ad81bef5-c4a0-4f30-a76b-98ae46d39f42.mock.pstmn.io
