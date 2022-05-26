@@ -20,6 +20,18 @@ import Computed from '../views/Computed.vue'
 import Watch from '../views/Watch.vue'
 import Watch2 from '../views/Watch2.vue'
 import DataBingingList02 from '../views/DataBingingList02.vue'
+import nestedcomponent from '../views/nestedcomponent.vue'
+import childcomponent from '../views/childcomponent.vue'
+import childcomponent2 from '../views/childcomponent2.vue'
+import childcomponent3 from '../views/childcomponent3.vue'
+import childcomponent4 from '../views/childcomponent4.vue'
+import childcomponent5 from '../views/childcomponent5.vue'
+import parentcomponent from '../views/parentcomponent.vue'
+import parentcomponent2 from '../views/parentcomponent2.vue'
+import parentcomponent3 from '../views/parentcomponent3.vue'
+import parentcomponent4 from '../views/parentcomponent4.vue'
+import parentcomponent5 from '../views/parentcomponent5.vue'
+
 
 const routes = [
   
@@ -136,8 +148,62 @@ const routes = [
     name: 'DataBingingList02',
     component: DataBingingList02 
   },
+  {
+    path: '/nestedcomponent',
+    name: 'nestedcomponent',
+    component: nestedcomponent 
+  },
+  {
+    path: '/childcomponent',
+    name: 'childcomponent',
+    component: childcomponent 
+  },
+  {
+    path: '/childcomponent2',
+    name: 'childcomponent2',
+    component: childcomponent2
+  },
+  {
+    path: '/childcomponent3',
+    name: 'childcomponent3',
+    component: childcomponent3 
+  },
+  {
+    path: '/childcomponent4',
+    name: 'childcomponent4',
+    component: childcomponent4 
+  },
+  {
+    path: '/childcomponent5',
+    name: 'childcomponent5',
+    component: childcomponent5 
+  },
+  {
+    path: '/parentcomponent',
+    name: 'parentcomponent',
+    component: parentcomponent 
+  },
+  {
+    path: '/parentcomponent2',
+    name: 'parentcomponent2',
+    component: parentcomponent2 
+  },
+  {
+    path: '/parentcomponent3',
+    name: 'parentcomponent3',
+    component: parentcomponent3 
+  },
+  {
+    path: '/parentcomponent4',
+    name: 'parentcomponent4',
+    component: parentcomponent4 
+  },
+  {
+    path: '/parentcomponent5',
+    name: 'parentcomponent5',
+    component: parentcomponent5
+  },
 ]
-
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes

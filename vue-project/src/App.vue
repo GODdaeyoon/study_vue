@@ -20,7 +20,18 @@
     <router-link to="/Computed">Computed</router-link> |
     <router-link to="/Watch">Watch</router-link> |
     <router-link to="/Watch2">Watch2</router-link> |
-    <router-link to="/DataBingingList02">DataBingingList02</router-link>
+    <router-link to="/DataBingingList02">DataBingingList02</router-link> |
+    <router-link to="/nestedcomponent">nestedcomponent</router-link> |
+    <router-link to="/childcomponent">childcomponent</router-link> |
+    <router-link to="/childcomponent2">childcomponent2</router-link> |
+    <router-link to="/childcomponent3">childcomponent3</router-link> |
+    <router-link to="/childcomponent4">childcomponent4</router-link> |
+    <router-link to="/childcomponent5">childcomponent5</router-link> |
+    <router-link to="/parentcomponent">parentcomponent</router-link> |
+    <router-link to="/parentcomponent2">parentcomponent2</router-link> |
+    <router-link to="/parentcomponent3">parentcomponent3</router-link> |
+    <router-link to="/parentcomponent4">parentcomponent4</router-link> |
+    <router-link to="/parentcomponent5">parentcomponent5</router-link> |
   </nav>
   <router-view/>
 </template>
