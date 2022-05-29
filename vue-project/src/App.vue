@@ -32,6 +32,19 @@
     <router-link to="/parentcomponent3">parentcomponent3</router-link> |
     <router-link to="/parentcomponent4">parentcomponent4</router-link> |
     <router-link to="/parentcomponent5">parentcomponent5</router-link> |
+    <router-link to="/SlotModalLayout">SlotModalLayout</router-link> |
+    <router-link to="/SlotUseModalLayout">SlotUseModalLayout</router-link> |
+    <router-link to="/ProvideInject">ProvideInject</router-link> |
+    <router-link to="/Calculator">Calculator</router-link> |
+    <router-link to="/CompositionAPI">CompositionAPI</router-link> |
+    <router-link to="/CompositionAPI2">CompositionAPI2</router-link> |
+    <router-link to="/CompositionAPI3">CompositionAPI3</router-link> |
+    <router-link to="/CompositionAPI4">CompositionAPI4</router-link> |
+    <router-link to="/CompositionAPIProvide">CompositionAPIProvide</router-link> |
+    <router-link to="/CompositionAPIInject">CompositionAPIInject</router-link> |
+    <router-link to="/mixins">mixins</router-link> |
+    <router-link to="/CustomDirective">CustomDirective</router-link> |
+    <router-link to="/Plugins">Plugins</router-link> |
   </nav>
   <router-view/>
 </template>

@@ -1,4 +1,6 @@
-<template></template>
+<template>
+    <button type="button" @click="childFunc" ref="btn">click</button>
+</template>
 <script>
 export default {
     name: '',

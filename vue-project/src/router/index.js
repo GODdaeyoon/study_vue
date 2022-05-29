@@ -31,6 +31,19 @@ import parentcomponent2 from '../views/parentcomponent2.vue'
 import parentcomponent3 from '../views/parentcomponent3.vue'
 import parentcomponent4 from '../views/parentcomponent4.vue'
 import parentcomponent5 from '../views/parentcomponent5.vue'
+import SlotModalLayout from '../views/SlotModalLayout.vue'
+import SlotUseModalLayout from '../views/SlotUseModalLayout.vue'
+import ProvideInject from '../views/ProvideInject.vue'
+import Calculator from '../views/Calculator.vue'
+import CompositionAPI from '../views/CompositionAPI.vue'
+import CompositionAPI2 from '../views/CompositionAPI2.vue'
+import CompositionAPI3 from '../views/CompositionAPI3.vue'
+import CompositionAPI4 from '../views/CompositionAPI4.vue'
+import CompositionAPIInject from '../views/CompositionAPIInject.vue'
+import CompositionAPIProvide from '../views/CompositionAPIProvide.vue'
+import mixins from '../views/mixins.vue'
+import CustomDirective from '../views/CustomDirective.vue'
+import Plugins from '../views/Plugins.vue'
 
 
 const routes = [
@@ -202,6 +215,71 @@ const routes = [
     path: '/parentcomponent5',
     name: 'parentcomponent5',
     component: parentcomponent5
+  },
+  {
+    path: '/SlotModalLayout',
+    name: 'SlotModalLayout',
+    component: SlotModalLayout
+  },
+  {
+    path: '/SlotUseModalLayout',
+    name: 'SlotUseModalLayout',
+    component: SlotUseModalLayout
+  },
+  {
+    path: '/ProvideInject',
+    name: 'ProvideInject',
+    component: ProvideInject
+  },
+  {
+    path: '/Calculator',
+    name: 'Calculator',
+    component: Calculator
+  },
+  {
+    path: '/CompositionAPI',
+    name: 'CompositionAPI',
+    component: CompositionAPI
+  },
+  {
+    path: '/CompositionAPI2',
+    name: 'CompositionAPI2',
+    component: CompositionAPI2
+  },
+  {
+    path: '/CompositionAPI3',
+    name: 'CompositionAPI3',
+    component: CompositionAPI3
+  },
+  {
+    path: '/CompositionAPI4',
+    name: 'CompositionAPI4',
+    component: CompositionAPI4
+  },
+  {
+    path: '/CompositionAPIProvide',
+    name: 'CompositionAPIProvide',
+    component: CompositionAPIProvide
+  },
+  {
+    path: '/CompositionAPIInject',
+    name: 'CompositionAPIInject',
+    component: CompositionAPIInject
+  },
+  {
+    path: '/mixins',
+    name: 'mixins',
+    component: mixins
+  },
+  {
+    path: '/CustomDirective',
+    name: 'CustomDirective',
+    component: CustomDirective
+  },
+  {
+    path: '/Plugins',
+    name: 'Plugins',
+    component: Plugins
   },
 ]
 const router = createRouter({

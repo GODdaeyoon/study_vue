@@ -1,6 +1,8 @@
 <template>
-    <child-component @send-message="sendMessage" ref="child_component"/>
-    <button type="button" @click="changechilddata">change child data</button>
+    <div>
+        <child-component @send-message="sendMessage" ref="child_component"/>
+        <button type="button" @click="changechilddata">change child data</button>
+    </div>
 </template>
 <script>
 import childcomponent from './childcomponent3'

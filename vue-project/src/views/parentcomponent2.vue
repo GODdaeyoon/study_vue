@@ -4,9 +4,9 @@
 <script>
 import childcomponent from './childcomponent2'
 export default {
-    components:{childcomponent},
+    components: {childcomponent},
     mounted(){
-        this.$refs.child_component.callfromparent();
+        this.$refs.child_component.callFromParent();
     }
 }
 </script>
