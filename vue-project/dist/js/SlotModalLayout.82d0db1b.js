@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_project"]=self["webpackChunkvue_project"]||[]).push([[634],{6044:function(e,n,t){t.r(n),t.d(n,{default:function(){return c}});var r=t(3396);const o={class:"modal-container"};function u(e,n){return(0,r.wg)(),(0,r.iD)("div",o,[(0,r._)("header",null,[(0,r.WI)(e.$slots,"header")]),(0,r._)("main",null,[(0,r.WI)(e.$slots,"default")]),(0,r._)("footer",null,[(0,r.WI)(e.$slots,"footer")])])}var l=t(89);const s={},a=(0,l.Z)(s,[["render",u]]);var c=a}}]);
+//# sourceMappingURL=SlotModalLayout.82d0db1b.js.map

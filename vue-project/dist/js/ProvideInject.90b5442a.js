@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_project"]=self["webpackChunkvue_project"]||[]).push([[108],{7739:function(e,t,n){n.r(t),n.d(t,{default:function(){return s}});var r=n(3396);function u(e,t,n,u,c,i){const o=(0,r.up)("provideInjectChild");return(0,r.wg)(),(0,r.j4)(o)}var c=n(89);var i={name:"",components:{},data(){return{items:["A","B"]}},provide(){return{itemLength:this.items.length}}};const o=(0,c.Z)(i,[["render",u]]);var s=o}}]);
+//# sourceMappingURL=ProvideInject.90b5442a.js.map

@@ -45,6 +45,7 @@
     <router-link to="/mixins">mixins</router-link> |
     <router-link to="/CustomDirective">CustomDirective</router-link> |
     <router-link to="/Plugins">Plugins</router-link> |
+    <router-link to="/StoreAccess">StoreAccess</router-link> |
   </nav>
   <router-view/>
 </template>

@@ -1,49 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import DataBinding from '../views/DataBinding.vue'
-import DataBingingInputText from '../views/DataBingingInputText.vue'
-import DataBingingInputNumber from '../views/DataBingingInputNumber.vue'
-import DataBingingTextarea from '../views/DataBingingTextarea.vue'
-import DataBingingSelect from '../views/DataBingingSelect.vue'
-import DataBingingCheckbox from '../views/DataBingingCheckbox.vue'
-import DataBingingCheckbox02 from '../views/DataBingingCheckbox02.vue'
-import DataBingingRadio from '../views/DataBingingRadio.vue'
-import DataBingingAttribue from '../views/DataBingingAttribue.vue'
-import DataBingingButton from '../views/DataBingingButton.vue'
-import DataBingingClass from '../views/DataBingingClass.vue'
-import DataBingingClass2 from '../views/DataBingingClass2.vue'
-import DataBingingStyle from '../views/DataBingingStyle.vue'
-import DataBingingList from '../views/DataBingingList.vue'
-import RenderingVif from '../views/RenderingVif.vue'
-import EventClick from '../views/EventClick.vue'
-import EventChange from '../views/EventChange.vue'
-import Computed from '../views/Computed.vue'
-import Watch from '../views/Watch.vue'
-import Watch2 from '../views/Watch2.vue'
-import DataBingingList02 from '../views/DataBingingList02.vue'
-import nestedcomponent from '../views/nestedcomponent.vue'
-import childcomponent from '../views/childcomponent.vue'
-import childcomponent2 from '../views/childcomponent2.vue'
-import childcomponent3 from '../views/childcomponent3.vue'
-import childcomponent4 from '../views/childcomponent4.vue'
-import childcomponent5 from '../views/childcomponent5.vue'
-import parentcomponent from '../views/parentcomponent.vue'
-import parentcomponent2 from '../views/parentcomponent2.vue'
-import parentcomponent3 from '../views/parentcomponent3.vue'
-import parentcomponent4 from '../views/parentcomponent4.vue'
-import parentcomponent5 from '../views/parentcomponent5.vue'
-import SlotModalLayout from '../views/SlotModalLayout.vue'
-import SlotUseModalLayout from '../views/SlotUseModalLayout.vue'
-import ProvideInject from '../views/ProvideInject.vue'
-import Calculator from '../views/Calculator.vue'
-import CompositionAPI from '../views/CompositionAPI.vue'
-import CompositionAPI2 from '../views/CompositionAPI2.vue'
-import CompositionAPI3 from '../views/CompositionAPI3.vue'
-import CompositionAPI4 from '../views/CompositionAPI4.vue'
-import CompositionAPIInject from '../views/CompositionAPIInject.vue'
-import CompositionAPIProvide from '../views/CompositionAPIProvide.vue'
-import mixins from '../views/mixins.vue'
-import CustomDirective from '../views/CustomDirective.vue'
-import Plugins from '../views/Plugins.vue'
+
 
 
 const routes = [
@@ -59,227 +15,232 @@ const routes = [
   {
     path: '/DataBinding',
     name: 'DataBinding',
-    component: DataBinding 
+    component: () => import(/* webpackChunkName: "DataBinding" */ '../views/DataBinding.vue')
   },
   {
     path: '/DataBingingInputText',
     name: 'DataBingingInputText',
-    component: DataBingingInputText 
+    component: () => import(/* webpackChunkName: "DataBingingInputText" */ '../views/DataBingingInputText.vue')
   },
   {
     path: '/DataBingingInputNumber',
     name: 'DataBingingInputNumber',
-    component: DataBingingInputNumber 
+    component: () => import(/* webpackChunkName: "DataBingingInputNumber" */ '../views/DataBingingInputNumber.vue')
   },
   {
     path: '/DataBingingTextarea',
     name: 'DataBingingTextarea',
-    component: DataBingingTextarea 
+    component: () => import(/* webpackChunkName: "DataBingingTextarea" */ '../views/DataBingingTextarea.vue')
   },
   {
     path: '/DataBingingSelect',
     name: 'DataBingingSelect',
-    component: DataBingingSelect 
+    component: () => import(/* webpackChunkName: "DataBingingSelect" */ '../views/DataBingingSelect.vue')
   },
   {
     path: '/DataBingingCheckbox',
     name: 'DataBingingCheckbox',
-    component: DataBingingCheckbox 
+    component: () => import(/* webpackChunkName: "DataBingingCheckbox" */ '../views/DataBingingCheckbox.vue')
   },
   {
     path: '/DataBingingCheckbox02',
     name: 'DataBingingCheckbox02',
-    component: DataBingingCheckbox02 
+    component: () => import(/* webpackChunkName: "DataBingingCheckbox02" */ '../views/DataBingingCheckbox02.vue')
   },
   {
     path: '/DataBingingRadio',
     name: 'DataBingingRadio',
-    component: DataBingingRadio 
+    component: () => import(/* webpackChunkName: "DataBingingRadio" */ '../views/DataBingingRadio.vue')
   },
   {
     path: '/DataBingingAttribue',
     name: 'DataBingingAttribue',
-    component: DataBingingAttribue 
+    component: () => import(/* webpackChunkName: "DataBingingAttribue" */ '../views/DataBingingAttribue.vue')
   },
   {
     path: '/DataBingingButton',
     name: 'DataBingingButton',
-    component: DataBingingButton 
+    component: () => import(/* webpackChunkName: "DataBingingButton" */ '../views/DataBingingButton.vue')
   },
   {
     path: '/DataBingingClass',
     name: 'DataBingingClass',
-    component: DataBingingClass 
+    component: () => import(/* webpackChunkName: "DataBingingClass" */ '../views/DataBingingClass.vue')
   },
   {
     path: '/DataBingingClass2',
     name: 'DataBingingClass2',
-    component: DataBingingClass2 
+    component: () => import(/* webpackChunkName: "DataBingingClass2" */ '../views/DataBingingClass2.vue')
   },
   {
     path: '/DataBingingStyle',
     name: 'DataBingingStyle',
-    component: DataBingingStyle 
+    component: () => import(/* webpackChunkName: "DataBingingStyle" */ '../views/DataBingingStyle.vue')
   },
   {
     path: '/DataBingingList',
     name: 'DataBingingList',
-    component: DataBingingList 
+    component: () => import(/* webpackChunkName: "DataBingingList" */ '../views/DataBingingList.vue')
   },
   {
     path: '/RenderingVif',
     name: 'RenderingVif',
-    component: RenderingVif 
+    component: () => import(/* webpackChunkName: "RenderingVif" */ '../views/RenderingVif.vue')
   },
   {
     path: '/EventClick',
     name: 'EventClick',
-    component: EventClick 
+    component: () => import(/* webpackChunkName: "EventClick" */ '../views/EventClick.vue')
   },
   {
     path: '/EventChange',
     name: 'EventChange',
-    component: EventChange 
+    component: () => import(/* webpackChunkName: "EventChange" */ '../views/EventChange.vue')
   },
   {
     path: '/Computed',
     name: 'Computed',
-    component: Computed 
+    component: () => import(/* webpackChunkName: "Computed" */ '../views/Computed.vue')
   },
   {
     path: '/Watch',
     name: 'Watch',
-    component: Watch 
+    component: () => import(/* webpackChunkName: "Watch" */ '../views/Watch.vue')
   },
   {
     path: '/Watch2',
     name: 'Watch2',
-    component: Watch2 
+    component: () => import(/* webpackChunkName: "Watch2" */ '../views/Watch2.vue')
   },
   {
     path: '/DataBingingList02',
     name: 'DataBingingList02',
-    component: DataBingingList02 
+    component: () => import(/* webpackChunkName: "DataBingingList02" */ '../views/DataBingingList02.vue')
   },
   {
     path: '/nestedcomponent',
     name: 'nestedcomponent',
-    component: nestedcomponent 
+    component: () => import(/* webpackChunkName: "nestedcomponent" */ '../views/nestedcomponent.vue')
   },
   {
     path: '/childcomponent',
     name: 'childcomponent',
-    component: childcomponent 
+    component: () => import(/* webpackChunkName: "childcomponent" */ '../views/childcomponent.vue')
   },
   {
     path: '/childcomponent2',
     name: 'childcomponent2',
-    component: childcomponent2
+    component: () => import(/* webpackChunkName: "childcomponent2" */ '../views/childcomponent2.vue')
   },
   {
     path: '/childcomponent3',
     name: 'childcomponent3',
-    component: childcomponent3 
+    component: () => import(/* webpackChunkName: "childcomponent3" */ '../views/childcomponent3.vue')
   },
   {
     path: '/childcomponent4',
     name: 'childcomponent4',
-    component: childcomponent4 
+    component: () => import(/* webpackChunkName: "childcomponent4" */ '../views/childcomponent4.vue')
   },
   {
     path: '/childcomponent5',
     name: 'childcomponent5',
-    component: childcomponent5 
+    component: () => import(/* webpackChunkName: "childcomponent5" */ '../views/childcomponent5.vue')
   },
   {
     path: '/parentcomponent',
     name: 'parentcomponent',
-    component: parentcomponent 
+    component: () => import(/* webpackChunkName: "parentcomponent" */ '../views/parentcomponent.vue')
   },
   {
     path: '/parentcomponent2',
     name: 'parentcomponent2',
-    component: parentcomponent2 
+    component: () => import(/* webpackChunkName: "parentcomponent2" */ '../views/parentcomponent2.vue')
   },
   {
     path: '/parentcomponent3',
     name: 'parentcomponent3',
-    component: parentcomponent3 
+    component: () => import(/* webpackChunkName: "parentcomponent3" */ '../views/parentcomponent3.vue')
   },
   {
     path: '/parentcomponent4',
     name: 'parentcomponent4',
-    component: parentcomponent4 
+    component: () => import(/* webpackChunkName: "parentcomponent4" */ '../views/parentcomponent4.vue')
   },
   {
     path: '/parentcomponent5',
     name: 'parentcomponent5',
-    component: parentcomponent5
+    component: () => import(/* webpackChunkName: "parentcomponent5" */ '../views/parentcomponent5.vue')
   },
   {
     path: '/SlotModalLayout',
     name: 'SlotModalLayout',
-    component: SlotModalLayout
+    component: () => import(/* webpackChunkName: "SlotModalLayout" */ '../views/SlotModalLayout.vue')
   },
   {
     path: '/SlotUseModalLayout',
     name: 'SlotUseModalLayout',
-    component: SlotUseModalLayout
+    component: () => import(/* webpackChunkName: "SlotUseModalLayout" */ '../views/SlotUseModalLayout.vue')
   },
   {
     path: '/ProvideInject',
     name: 'ProvideInject',
-    component: ProvideInject
+    component: () => import(/* webpackChunkName: "ProvideInject" */ '../views/ProvideInject.vue')
   },
   {
     path: '/Calculator',
     name: 'Calculator',
-    component: Calculator
+    component: () => import(/* webpackChunkName: "Calculator" */ '../views/Calculator.vue')
   },
   {
     path: '/CompositionAPI',
     name: 'CompositionAPI',
-    component: CompositionAPI
+    component: () => import(/* webpackChunkName: "CompositionAPI" */ '../views/CompositionAPI.vue')
   },
   {
     path: '/CompositionAPI2',
     name: 'CompositionAPI2',
-    component: CompositionAPI2
+    component: () => import(/* webpackChunkName: "CompositionAPI2" */ '../views/CompositionAPI2.vue')
   },
   {
     path: '/CompositionAPI3',
     name: 'CompositionAPI3',
-    component: CompositionAPI3
+    component: () => import(/* webpackChunkName: "CompositionAPI3" */ '../views/CompositionAPI3.vue')
   },
   {
     path: '/CompositionAPI4',
     name: 'CompositionAPI4',
-    component: CompositionAPI4
+    component: () => import(/* webpackChunkName: "CompositionAPI4" */ '../views/CompositionAPI4.vue')
   },
   {
     path: '/CompositionAPIProvide',
     name: 'CompositionAPIProvide',
-    component: CompositionAPIProvide
+    component: () => import(/* webpackChunkName: "CompositionAPIProvide" */ '../views/CompositionAPIProvide.vue')
   },
   {
     path: '/CompositionAPIInject',
     name: 'CompositionAPIInject',
-    component: CompositionAPIInject
+    component: () => import(/* webpackChunkName: "CompositionAPIInject" */ '../views/CompositionAPIInject.vue')
   },
   {
     path: '/mixins',
     name: 'mixins',
-    component: mixins
+    component: () => import(/* webpackChunkName: "mixins" */ '../views/mixins.vue')
   },
   {
     path: '/CustomDirective',
     name: 'CustomDirective',
-    component: CustomDirective
+    component: () => import(/* webpackChunkName: "CustomDirective" */ '../views/CustomDirective.vue')
   },
   {
     path: '/Plugins',
     name: 'Plugins',
-    component: Plugins
+    component: () => import(/* webpackChunkName: "Plugins" */ '../views/Plugins.vue')
+  },
+  {
+    path: '/StoreAccess',
+    name: 'StoreAccess',
+    component: () => import(/* webpackChunkName: "StoreAccess" */ '../views/StoreAccess.vue')
   },
 ]
 const router = createRouter({

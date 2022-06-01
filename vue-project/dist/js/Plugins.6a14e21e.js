@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_project"]=self["webpackChunkvue_project"]||[]).push([[277],{4745:function(n,e,t){t.r(e),t.d(e,{default:function(){return s}});var u=t(3396),r=t(7139);function i(n,e,t,i,l,o){return(0,u.wg)(),(0,u.iD)("div",null,[(0,u._)("h2",null,(0,r.zw)(n.$translate("ko.hi")),1),(0,u._)("h2",null,(0,r.zw)(o.i18n.ko.hi),1)])}var l={inject:["i18n"],mounted(){console.log(this.i18n)}},o=t(89);const c=(0,o.Z)(l,[["render",i]]);var s=c}}]);
+//# sourceMappingURL=Plugins.6a14e21e.js.map
