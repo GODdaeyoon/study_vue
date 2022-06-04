@@ -242,6 +242,21 @@ const routes = [
     name: 'StoreAccess',
     component: () => import(/* webpackChunkName: "StoreAccess" */ '../views/StoreAccess.vue')
   },
+  {
+    path: '/kakaologin',
+    name: 'kakaologin',
+    component: () => import(/* webpackChunkName: "kakaologin" */ '../views/kakaologin.vue')
+  },
+  {
+    path: '/naverlogin',
+    name: 'NaverLogin',
+    component: () => import(/* webpackChunkName: "naverlogin" */ '../views/NaverLogin.vue')
+  },
+  {
+    path: '/googlelogin',
+    name: 'googlelogin',
+    component: () => import(/* webpackChunkName: "googlelogin" */ '../views/googlelogin.vue')
+  },
 ]
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),

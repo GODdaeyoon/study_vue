@@ -27,3 +27,6 @@ app.directive('focus',{
     }
 })
 // createApp(App).use(router).mixin(mixins).mount('#app')
+
+window.Kakao.init("1b7c8c57967afc7dcfb85452019803cb"); //발급받은 앱 키
+

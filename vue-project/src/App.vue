@@ -46,6 +46,9 @@
     <router-link to="/CustomDirective">CustomDirective</router-link> |
     <router-link to="/Plugins">Plugins</router-link> |
     <router-link to="/StoreAccess">StoreAccess</router-link> |
+    <router-link to="/kakaologin">kakaologin</router-link> |
+    <router-link to="/NaverLogin">NaverLogin</router-link> |
+    <router-link to="/googlelogin">googlelogin</router-link> |
   </nav>
   <router-view/>
 </template>
